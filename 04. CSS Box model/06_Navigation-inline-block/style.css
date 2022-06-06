@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+nav li:last-child{
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+}
+
+header h1 {
+    display: inline-block;
+}
