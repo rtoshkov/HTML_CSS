@@ -1,0 +1,38 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+ul, li {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    padding-right: 10px;
+
+}
+
+a {
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    color:black;
+}
+
+a i.fa-facebook-square:hover {
+    color: cornflowerblue;
+}
+
+a i.fa-twitter:hover {
+    color: #5bc0de;
+}
+
+a i.fa-google-plus:hover {
+    color: red;
+}
+
+a i.fa-linkedin:hover {
+    color: #5bc0de;
+}
+
+a i.fa-instagram:hover {
+    color: #5bc0de;
+}
