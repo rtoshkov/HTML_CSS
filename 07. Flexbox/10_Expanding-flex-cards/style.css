@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 500px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.container img {
+    flex-basis: 10%;
+    width: 400px;
+}

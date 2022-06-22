@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.masonry ul {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 1000px;
+    background-color: red;
+
+}
+
+.cards-layout {
+
+}
+
+.flex ul {
+    padding: 5px;
+    display: flex;
+    align-content: flex-start;
+    gap: 10px;
+    height: 1000px;
+    background-color: #f7f381;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+ul li {
+    width: 150px;
+    background-color: white;
+    display: inline-block;
+}
+
+ul li img {
+    width: 100%;
+}
+
+h1 {
+    flex-basis: 100%;
+}
+
