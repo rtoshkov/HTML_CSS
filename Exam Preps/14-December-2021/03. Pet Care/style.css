@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+    --clr-background: rgb(241,66,51);
+    --clr-gradient-linear: linear-gradient(90deg, rgba(241,66,51,1) 0%, rgba(237,90,5,1) 100%);
+    --clr-white:  #ffffff;
+    --clr-black:  #121731;
+    --clr-gray: #696973;
+    --clr-primary: rgb(241,66,51);
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.topMenu {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: var(--clr-white);
+    padding: 0 10px 0 170px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--clr-black);
+    font-weight: 600;
+}
+
+.frontPageBanner {
+    position: relative;
+    background: var(--clr-gradient-linear);
+    background-image: url("images/header-bg.png");
+    background-position: 50% 0;
+    max-width: 1920px;
+    height: 888px;
+}
+
+.frontPageBanner img {
+    position: absolute;
+    top: 90px;
+    right:124px;
+    width: 60%;
+}
+
+h1 {
+    font-size: 75px;
+    color: var(--clr-white);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 25px;
+    color: var(--clr-black);
+}
+
+.motoContainer {
+    width: 388px;
+    padding: 10px;
+    position: absolute;
+    top: 210px;
+    left: 360px;
+}
+
+.motoContainer h1 span {
+    font-weight: 800;
+    /*display: block;*/
+
+}
+
+.motoContainer p {
+    color: var(--clr-white);
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.motoContainer button {
+    margin: 35px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--clr-white);
+    color: var(--clr-primary);
+    padding: 12px 40px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+#services {
+    margin: 140px auto;
+    text-align: center;
+}
+
+#services p {
+    margin-top: 15px;
+    width: 34%;
+    display: inline-block;
+}
+
+.servContainer {
+    margin: 50px auto 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#services .card {
+    width: 25%;
+    border: 1px solid var(--clr-primary);
+    padding: 60px 0;
+}
+
+#services .card .profileImg {
+    margin: auto;
+    position: relative;
+    width: 161px;
+    height: 143px;
+    background-image: url("images/service-bg.png");
+    object-fit: cover;
+}
+
+#services .card .profileImg img {
+    position: absolute;
+    bottom: 30px;
+    left:33px;
+}
+
+#services .card .info {
+    margin-top: 25px;
+}
+
+#services .card .info p {
+    color: var(--clr-gray);
+    font-size: 16px;
+    width: 70%;
+}
+
+
+#aboutUs {
+    width: 80%;
+    margin: 140px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#aboutUs .imageContainer img{
+   width: 80%;
+}
+
+
+#aboutUs h2  span {
+    line-height: 1;
+    display: block;
+    font-weight: 400;
+}
+
+
+#aboutUs  .info {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 45%;
+    padding-bottom: 0px;
+}
+
+#aboutUs  .info  p{
+    margin-top: 25px;
+    width: 70%;
+}
+
+#aboutUs  .info  button {
+    margin: 50px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--clr-gradient-linear);
+    color: var(--clr-white);
+    padding: 12px 40px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+/*
+    ------------------------
+         WHY SECTION
+    -------------------------
+*/
+
+
+#why {
+    max-width: 1920px;
+    height: 609px;
+    background-image: url("images/cats-bg.png");
+    background-position: 50% 0;
+    margin: 140px auto 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#why .container {
+    width: 39%;
+    margin: auto;
+}
+
+#why h2 {
+    color: var(--clr-white);
+    font-weight: 800;
+}
+
+
+#why p {
+    margin-top: 25px;
+    color: var(--clr-white);
+    font-size: 19px;
+}
+
+#why button {
+    margin: 35px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--clr-white);
+    color: var(--clr-primary);
+    padding: 12px 40px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+#why .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#why .contacts p {
+    font-size: 16px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+}
+
+#why .contacts p span {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+
+/*
+    ------------------------
+         FOOTER
+    -------------------------
+*/
+
+footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 40px;
+    color: var(--clr-gray);
+}
+
+footer .container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container ul {
+    margin-top: 25px;
+    padding: 0;
+}
+
+footer .container ul li {
+    margin-top: 12px;
+}
+
+footer .container h4 {
+    font-size: 16px;
+}
+
+footer article{
+    width: 20%;
+}
+
+footer .footerLogo {
+    align-self: flex-start;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .footerLogo img {
+    width: 60%;
+}
+
+footer .footerLogo span {
+    display: block;
+}
