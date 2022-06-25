@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px){
+    .w3-top article.w3-right.w3-hide-small{
+        display: none;
+    }
+
+    main.w3-content article.w3-col.m6.w3-padding-large.w3-hide-small {
+        display: none;
+    }
+
+    #about article.w3-col.m6.w3-padding-large {
+        width: 99%;
+    }
+
+    #menu article.w3-col.l6.w3-padding-large{
+        width: 100%;
+    }
+
+}
