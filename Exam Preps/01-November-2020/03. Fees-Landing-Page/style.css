@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --clr-white: #ffffff;
+    --clr-primary: #54546d;
+    --clr-primary-light: #8b8eaa;
+    --clr-purple: #9a5dc6;
+    --clr-gray: #e6e6e6;
+    --clr-gray-light: #f8f8f8;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* --- HEADER --- */
+header {
+    background-color: var(--clr-white);
+}
+
+.top-bar {
+    padding: 25px 25px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar .site-logo {
+    width: 170px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+
+
+/* paths */
+#paths {
+    position: relative;
+    background-color: var(--clr-primary);
+    height: 450px;
+    background-image: url("images/calculator-icon.svg");
+    background-repeat: no-repeat;
+    background-position: -65px;
+}
+
+#paths h3 {
+    color: var(--clr-white);
+    display: inline-block;
+    font-weight: 500;
+    font-size: 34px;
+    width: 100%;
+    margin: 53px auto 0 auto;
+    text-align: center;
+
+}
+
+.card {
+    width: 440px;
+    height: 400px;
+    /*background-color: var(--clr-white);*/
+    border-radius: 16px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background-color: var(--clr-white);
+    position: relative;
+}
+
+.card .info {
+    height: 260px;
+}
+
+.btn {
+    padding: 10px 40px;
+    border-radius: 24px;
+    color: var(--clr-white);
+    font-weight: bold;
+    background-color: var(--clr-purple);
+    border: none;
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.20);
+}
+
+#paths {
+    position: relative;
+}
+
+#pats .wrapper {
+    position: absolute;
+    top: 25px;
+}
+
+#paths h2 {
+    color: var(--clr-primary);
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+#paths .card.paid h2 {
+    margin-bottom: 20px;
+}
+
+
+#paths p {
+    color: var(--clr-primary);
+    font-size: 18px;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    line-height: 1.1;
+
+}
+
+#paths .card.paid p {
+    margin-bottom: 15px;
+}
+
+#paths .card.free p.fix {
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 62px;
+}
+
+.card.free .btn {
+    margin-bottom: 20px;
+}
+
+.card-bottom {
+    height: 140px;
+    width: 440px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.card.free .card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    background: rgb(4, 155, 62);
+    background: linear-gradient(90deg, rgba(4, 155, 62, 1) 0%, rgba(73, 213, 126, 1) 100%);
+}
+
+#paths .card.free .card-bottom p {
+    color: var(--clr-white);
+}
+
+#paths .card.free .card-bottom p:first-of-type {
+    font-size: 28px;
+}
+
+.card.paid .card-bottom {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card.paid .card-bottom .cube {
+    width: 50%;
+}
+
+.card.paid .card-bottom .cube:first-of-type {
+    border-right: 1px solid var(--clr-white);
+}
+
+#paths .card.paid .card-bottom p:first-of-type {
+
+    font-size: 28px;
+}
+
+#paths .card.paid .card-bottom p {
+    color: var(--clr-white);
+    font-size: 15px;
+}
+
+#paths .card.fundamental .card-bottom{
+    background: rgb(77,109,138);
+    background: linear-gradient(90deg, rgba(77,109,138,1) 0%, rgba(97,153,205,1) 100%);
+}
+
+#paths .card.professional .card-bottom{
+    background: rgb(76,57,167);
+    background: linear-gradient(90deg, rgba(76,57,167,1) 0%, rgba(137,122,223,1) 100%);
+}

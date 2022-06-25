@@ -1,0 +1,63 @@
+@media screen and (max-width: 800px){
+    .banner h2 {
+        width: 80%;
+        font-size: 1.6em;
+        margin: auto auto 25px;
+    }
+
+    ul.actions li {
+        display: block;
+    }
+
+    ul.actions a {
+        display: inline-block;
+        width: 80%;
+    }
+    .wrapper > .inner {
+        width: 100%;
+    }
+
+    .features {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+    }
+
+    .wrapper .inner.narrow {
+        width: 100%;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 90%;
+        margin: auto;
+        align-self: center;
+    }
+
+    #message {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+
+    article.form-control {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    ul.actions input {
+        width: 90%;
+    }
+
+}
