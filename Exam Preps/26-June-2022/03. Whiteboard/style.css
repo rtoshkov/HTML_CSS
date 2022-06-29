@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+:root {
+    --clr-white: #ffffff;
+    --clr-green: #00d08e;
+    --clr-black: #20252d;
+    --clr-footer-green: #b2f1dd;
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    background-color: gray;
+    width: 1200px;
+    margin: auto;
+    height: 530px;
+    background-image: url("image/computer-main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.imageContainer:before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    opacity: 70%;
+}
+
+/* --- TOPBAR --- */
+
+h1 {
+    color: var(--clr-white);
+    font-size: 50px;
+    text-shadow: -1px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    z-index: 1;
+    color: var(--clr-white);
+    font-weight: normal;
+    font-size: 20px;
+    text-shadow: -1px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+h2 i {
+    font-size: 24px;
+}
+
+.cart {
+    z-index: 2;
+}
+
+.cart a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--clr-white);
+    text-shadow: -1px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+.cart i {
+    font-size: 24px;
+}
+
+header section.info {
+    position: relative;
+    height: 355px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+header section.info p {
+    width: 34%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+header section.info a {
+    font-size: 19px;
+    color: var(--clr-white);
+    text-decoration: none;
+    text-shadow: -1px 3px 4px rgba(0, 0, 0, 0.9);
+}
+
+header .info i {
+    color: var(--clr-black);
+    background-color: var(--clr-white);
+    padding: 3px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 50%;
+}
+
+.top-bar {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.btn {
+    margin: 0 0 25px 25px;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    padding: 7px 19px;
+    font-size: 15px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 2px solid var(--clr-white);
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+}
+
+/*  SECTION ONE  */
+
+.one {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.one img {
+    width: 50%;
+}
+
+h3 {
+    color: var(--clr-black);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.one p {
+    color: var(--clr-black);
+    font-size: 24px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.one ul {
+    padding-inline-start: 0;
+}
+
+.one ul li {
+    margin-bottom: 20px;
+}
+
+.one ul i {
+    margin-right: 20px;
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    padding: 3px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 50%;
+}
+
+/*  SECTION TW0  */
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.perfect {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.two h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.two img {
+    width: 50%;
+}
+
+.two ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0;
+
+
+}
+
+.two ul li {
+    text-align: left;
+    padding-bottom: 40px;
+    width: 130px;
+    font-size: 25px;
+    color: var(--clr-green);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*  FOOTER  */
+
+footer {
+    padding: 20px 20px 20px 0;
+    width: 1200px;
+    margin: auto;
+
+    background-color: var(--clr-footer-green);
+    color: var(--clr-black);
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+footer h4 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .faq p {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .faq {
+    width: 30%;
+}
+
+.faq h4 {
+    margin-bottom: 10px;
+}
+
+footer .wrapper {
+    margin-top: 50px;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer a {
+
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--clr-black);
+}
